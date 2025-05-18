@@ -152,6 +152,7 @@ document.body.addEventListener('click', async (e) => {
 #有个小问题就是不造为什么在首页缩略图里点赞好像一次会调用4次点赞函数？有时候会抽
 
 # 4
+blog/models.py
 ```python
 class Article(BaseModel):
     # 新增点赞数和点赞用户字段
